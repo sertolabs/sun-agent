@@ -8,8 +8,8 @@ server:
   defaultIdentity:
     create: true
     messagingServiceEndpoint: /messaging
-  # ngrok:
-  #   connect: false
+  ngrok:
+    connect: true
   #   subdomain: none
   #   region: eu
   # authtoken:
